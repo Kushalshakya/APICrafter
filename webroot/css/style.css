@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/webroot/font/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Bebas";
+  src: url("/webroot/font/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+.header {
+  font-family: "Bebas";
+  width: 100%;
+  height: auto;
+  background-color: #00abe4;
+}
+.header .title {
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.content {
+  font-family: "Poppins";
+  background-color: #f4f8fd;
+}
+.content .content-sidebar {
+  width: 20%;
+  background-color: #fff;
+}
+.content .content-sidebar ul {
+  list-style: none;
+}
+.content .content-sidebar ul li {
+  padding: 15px 0;
+}
+.content .content-sidebar ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 0 0 0 20px;
+}
+.content .content-sidebar ul li.active {
+  background-color: #1e375a;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.content .content-sidebar ul li.active a {
+  color: #fff;
+}
+.content .content-refresh {
+  width: 80%;
+}
+.content .content-refresh .content-wrap {
+  width: 95%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
